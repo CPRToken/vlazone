@@ -231,28 +231,13 @@ export default function CareerLandingHero() {
             >
               <Typography
                 variant="h2"
-                sx={{
-                  color: 'text.primary',
-                  fontFamily: (themeStyle) => themeStyle.typography.fontTertiaryFamily, // Renamed 'theme' to 'themeStyle'
-                  fontWeight: 400,
-                  textShadow: isDarkMode ? 'none' : '0px 0px 2px rgba(0, 0, 0, 0.5)',
-                }}
-              >
+                sx={{ color: 'common.white' }}>
                 VILLARROEL, LECAROS Y ASTE
               </Typography>
 
 
 
-              <Typography
-                variant="body2"
-                sx={{
-                  color: 'text.primary',
-                  fontFamily: (themeStyle) => themeStyle.typography.fontTertiaryFamily,
-                  fontWeight: isDarkMode ? 400 : 500,
-                  fontSize: '22px',
-                  textShadow: isDarkMode ? 'none' : '0px 0px 2px rgba(0, 0, 0, 0.8)',
-                }}
-              >
+              <Typography sx={{ color: 'white.500' }}>
                 Villarroel, Lecaros y Aste es una firma de gran trayectoria. Fue fundada en 1968 y desde entonces se ha caracterizado por construir relaciones de confianza y de larga data con sus clientes, basada en la excelencia y gran experiencia de sus profesionales, proporcionando una atención personalizada y un apoyo legal ágil y oportuno.
                 <br /><br />
                 Nuestro estudio cuenta con doctores en derecho, profesores universitarios, ex abogados integrantes de la Corte Suprema y, en general, profesionales de gran prestigio. Nuestra firma promueve y fomenta la participación en el mundo académico y la capacitación permanente de sus abogados, con el fin de mantener un alto estándar de calidad profesional.

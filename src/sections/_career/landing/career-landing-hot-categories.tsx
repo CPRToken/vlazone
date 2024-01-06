@@ -53,7 +53,7 @@ export default function CareerLandingHotCategories({ categories }: Props) {
           variant="outlined"
           endIcon={<Iconify icon="carbon:chevron-right" />}
         >
-          View All Categories
+          Ver más
         </Button>
       </Stack>
     </Container>

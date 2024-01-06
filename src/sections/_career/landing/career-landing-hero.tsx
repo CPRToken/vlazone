@@ -233,7 +233,7 @@ export default function CareerLandingHero() {
                 variant="h2"
                 sx={{
                   color: 'text.primary',
-                  fontFamily: (theme) => theme.typography.fontTertiaryFamily,
+                  fontFamily: (themeStyle) => themeStyle.typography.fontTertiaryFamily, // Renamed 'theme' to 'themeStyle'
                   fontWeight: 400,
                   textShadow: isDarkMode ? 'none' : '0px 0px 2px rgba(0, 0, 0, 0.5)',
                 }}
@@ -247,7 +247,7 @@ export default function CareerLandingHero() {
                 variant="body2"
                 sx={{
                   color: 'text.primary',
-                  fontFamily: (theme) => theme.typography.fontTertiaryFamily,
+                  fontFamily: (themeStyle) => themeStyle.typography.fontTertiaryFamily,
                   fontWeight: isDarkMode ? 400 : 500,
                   fontSize: '22px',
                   textShadow: isDarkMode ? 'none' : '0px 0px 2px rgba(0, 0, 0, 0.8)',

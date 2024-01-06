@@ -16,6 +16,7 @@ import TravelLandingToursByCity from '../landing/travel-landing-tours-by-city';
 import TravelLandingTourFeatured from '../landing/travel-landing-tour-featured';
 import BlogTravelLandingLatestPosts from '../../blog/travel/travel-landing-posts';
 import TravelLandingFavoriteDestinations from '../landing/travel-landing-favorite-destinations';
+import CareerLandingHero from "../../_career/landing/career-landing-hero";
 
 // ----------------------------------------------------------------------
 
@@ -23,7 +24,7 @@ export default function TravelLandingView() {
   return (
     <>
       <Box sx={{ position: 'relative' }}>
-        <TravelLandingHero tours={_tours.slice(0, 5)} />
+
 
         <Container
           sx={{
@@ -36,20 +37,12 @@ export default function TravelLandingView() {
             position: { md: 'absolute' },
           }}
         >
-          <TravelFilters
-            sx={{
-              color: { md: 'common.white' },
-              bgcolor: (theme) => ({
-                xs: 'background.neutral',
-                md: alpha(theme.palette.common.white, 0.08),
-              }),
-            }}
-          />
+
         </Container>
       </Box>
 
-      <TravelLandingIntroduce />
 
+<CareerLandingHero />
       <TravelLandingSummary />
 
       <TravelLandingFavoriteDestinations tours={_tours.slice(0, 4)} />

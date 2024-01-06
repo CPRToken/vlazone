@@ -232,7 +232,7 @@ export default function CareerLandingHero() {
               <Typography
                 variant="h2"
                 sx={{
-                  color: 'text.primary',  // Adapts to theme mode
+                  color: 'text.primary',
                   fontFamily: (theme) => theme.typography.fontTertiaryFamily,
                   fontWeight: 400,
                   textShadow: isDarkMode ? 'none' : '0px 0px 2px rgba(0, 0, 0, 0.5)',
@@ -248,7 +248,7 @@ export default function CareerLandingHero() {
                 sx={{
                   color: 'text.primary',
                   fontFamily: (theme) => theme.typography.fontTertiaryFamily,
-                  fontWeight: isDarkMode ? 400 : 500,  // Adjust based on the theme mode
+                  fontWeight: isDarkMode ? 400 : 500,
                   fontSize: '22px',
                   textShadow: isDarkMode ? 'none' : '0px 0px 2px rgba(0, 0, 0, 0.8)',
                 }}

@@ -1,130 +1,81 @@
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
 import Iconify from 'src/components/iconify';
 import SvgColor from 'src/components/svg-color';
-import TextMaxLine from 'src/components/text-max-line';
-
-import { IJobByCategoryProps } from 'src/types/job';
 
 // ----------------------------------------------------------------------
+export default function CareerLandingStep() {
 
-type Props = {
-  categories: IJobByCategoryProps[];
-};
+// Hard-coded list items for each group
+  const STEPS = [
+    [
+      { title: 'CORPORATIVO' },
+      { title: 'FUSIONES Y ADQUISICIONES' },
+      { title: 'TRIBUTARIA' },
+      { title: 'LABORAL' },
+      { title: 'CONTRATACIÓN NACIONAL E INTERNACIONAL' },
+      { title: 'INMOBILIARIA, INGENIERÍA Y CONSTRUCCIÓN' },
+      { title: 'FINANCIAMIENTO DE PROYECTOS' },
+      { title: 'MERCADOS REGULADOS' },
+      { title: 'INMIGRACIÓN' },
+      { title: 'INVERSIÓN EXTRANJERA' },
+      { title: 'ENERGÍA Y RECURSOS NATURALES' },
+      { title: 'AGUAS' }
+    ],
+    [
+      { title: 'LITIGIOS' },
+      { title: 'SOLUCIÓN DE CONFLICTOS Y ARBITRAJE' },
+      { title: 'LIBRE COMPETENCIA' },
+      { title: 'CONSTITUCIONAL Y ADMINISTRATIVO' },
+      { title: 'INFORMES ESPECIALIZADOS EN DERECHO' },
+      { title: 'CONFLICTOS DE LEYES Y JURISDICCIÓN' },
+      { title: 'PROTECCIÓN DEL CONSUMIDOR' },
+      { title: 'INSOLVENCIA Y REORGANIZACIÓN EMPRESARIAL' },
+      { title: 'MEDIO AMBIENTE' },
+      { title: 'AGROINDUSTRIA' },
+      { title: 'EDUCACIÓN' },
+      { title: 'PRÁCTICA GENERAL' }
+    ]
+  ];
 
-export default function CareerLandingHotCategories({ categories }: Props) {
+// ... rest of your component ...
+
+
+
   return (
-    <Container
+    <Box
       sx={{
         pt: { xs: 10, md: 15 },
         pb: { xs: 5, md: 10 },
+        backgroundColor: 'white', // Set background color to white
       }}
     >
-      <Typography variant="h2" sx={{ textAlign: 'center' }}>
-        ÁREAS DE PRÁCTICA
-      </Typography>
+      <Container>
+        <Typography variant="h3" sx={{ textAlign: 'center', pb: 9, color: '#343434' }}>
+          ÁREAS DE PRÁCTICA
+        </Typography>
 
-      <Box
-        sx={{
-          gap: 4,
-          display: 'grid',
-          my: { xs: 8, md: 10 },
-          gridTemplateColumns: {
-            xs: 'repeat(1, 1fr)',
-            sm: 'repeat(2, 1fr)',
-            md: 'repeat(4, 1fr)',
-          },
-        }}
-      >
-        {categories.map((category) => (
-          <CategoryItem key={category.id} category={category} />
-        ))}
-      </Box>
-
-      <Stack alignItems="center">
-        <Button
-          color="inherit"
-          size="large"
-          variant="outlined"
-          endIcon={<Iconify icon="carbon:chevron-right" />}
-        >
-          Ver más
-        </Button>
-      </Stack>
-    </Container>
-  );
-}
-
-// ----------------------------------------------------------------------
-
-type CategoryItemProps = {
-  category: IJobByCategoryProps;
-};
-
-function CategoryItem({ category }: CategoryItemProps) {
-  return (
-    <Paper
-      variant="outlined"
-      sx={{
-        pt: '100%',
-        borderRadius: 2,
-        cursor: 'pointer',
-        textAlign: 'center',
-        position: 'relative',
-        bgcolor: 'transparent',
-        transition: (theme) => theme.transitions.create('all'),
-        '&:hover': {
-          bgcolor: 'background.paper',
-          boxShadow: (theme) => theme.customShadows.z24,
-          '& .icon': {
-            bgcolor: 'primary.main',
-            transition: (theme) => theme.transitions.create('all'),
-            '& > span': {
-              color: 'common.white',
-            },
-          },
-        },
-      }}
-    >
-      <Stack
-        alignItems="center"
-        justifyContent="center"
-        sx={{
-          width: 1,
-          height: 1,
-          top: 0,
-          position: 'absolute',
-        }}
-      >
         <Box
-          className="icon"
           sx={{
-            mb: 2.5,
-            width: 72,
-            height: 72,
-            mx: 'auto',
-            display: 'flex',
-            borderRadius: '50%',
-            alignItems: 'center',
-            justifyContent: 'center',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(2, 1fr)',
+            gap: 2,
           }}
         >
-          <SvgColor src={category.icon} sx={{ width: 48, height: 48 }} />
+          {STEPS.map((column, columnIndex) => (
+            <div key={columnIndex}>
+              {column.map((item, itemIndex) => (
+                <Typography key={itemIndex} variant="h6" sx={{ mt: 2, mb: 1, fontWeight: '600', color: '#343434' }}>
+                  {item.title}
+                </Typography>
+              ))}
+            </div>
+          ))}
         </Box>
-
-        <TextMaxLine variant="h6" line={1}>
-          {category.name}
-        </TextMaxLine>
-
-        <Typography variant="body2" sx={{ color: 'text.disabled', mt: 0.5 }}>
-          {category.totalJobs} jobs
-        </Typography>
-      </Stack>
-    </Paper>
+      </Container>
+    </Box>
   );
 }

@@ -32,7 +32,7 @@ export default function CareerLandingView() {
 
 
 
-      <CareerLandingHotCategories categories={_jobsByCategories} />
+      <CareerLandingHotCategories  />
 
 
       <TravelTeam members={_members} />

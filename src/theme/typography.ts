@@ -104,11 +104,11 @@ export const typography = {
     ...responsiveFontSizes({ sm: 40, md: 44, lg: 48 }),
   },
   h3: {
-    fontWeight: 200,
-    lineHeight: 1.5,
-    fontSize: pxToRem(17),
-    fontFamily: quinaryFont.style.fontFamily,
-    ...responsiveFontSizes({ sm: 26, md: 30, lg: 32 }),
+    fontWeight: 500,
+    lineHeight: 64 / 48,
+    fontSize: pxToRem(28),
+    fontFamily: tertiaryFont.style.fontFamily,
+    ...responsiveFontSizes({ sm: 40, md: 44, lg: 48 }),
   },
   h4: {
     fontWeight: 300,
@@ -125,11 +125,11 @@ export const typography = {
     ...responsiveFontSizes({ sm: 19, md: 20, lg: 20 }),
   },
   h6: {
-    fontWeight: 400,
-    lineHeight:  1.7,
-    fontSize: pxToRem(18),
-    fontFamily: quaternaryFont.style.fontFamily,
-    ...responsiveFontSizes({ sm: 18, md: 18, lg: 18 }),
+    fontWeight: 600,
+    lineHeight:  1.6,
+    fontSize: pxToRem(20),
+    fontFamily: tertiaryFont.style.fontFamily,
+    ...responsiveFontSizes({ sm: 20, md: 20, lg: 20 }),
   },
   subtitle1: {
     fontWeight: 600,

@@ -120,7 +120,7 @@ const base = {
 export function palette(mode: 'light' | 'dark') {
   const light = {
     ...base,
-    mode: 'dark',
+    mode: 'light',
     text: {
       primary: grey[800],
       secondary: grey[600],
@@ -156,5 +156,5 @@ export function palette(mode: 'light' | 'dark') {
     },
   };
 
-  return mode === 'light' ? light : dark;
+  return mode === 'dark' ? light : dark;
 }

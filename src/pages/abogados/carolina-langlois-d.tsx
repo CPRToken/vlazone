@@ -35,7 +35,7 @@ export default function CarolinaLanglois() {
       <Grid container spacing={3} alignItems={{  md: 'space-between' }} sx={{ minHeight: '500px' }}>
         {mdUp && (
           <Grid xs={12} md={6} lg={4}>
-            <Image alt="about" src="/assets/team/Langlois.jpg" sx={{ borderRadius: 2, width: '420px', height: '500px' }} />
+            <Image alt="about" src="/assets/team/langlois.jpg" sx={{ borderRadius: 2, width: '420px', height: '500px' }} />
           </Grid>
         )}
         <Grid xs={12} md={6} lg={8} sx={{ pl: { lg: 11 } }}>

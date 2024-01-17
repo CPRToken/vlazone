@@ -1,7 +1,0 @@
-export const Eduardo_Silva_DProfile = {
-  "name": "Eduardo Silva D.",
-  "info": "<strong>Educación</strong>: Facultad de Derecho, Universidad de Los Andes (Licenciado en Derecho, 2009). Diplomado en Sociedades y Financiamiento, Universidad de Los Andes (2012). Máster en Derecho (LLM), Queen Mary University of London (2015).\r\n\r\n<strong>Admitido a práctica:</strong> 2011.\r\n\r\n<strong>Actividad profesional:</strong> Fontaine y Cía. (2011-2014).\r\n\r\n<strong>Idiomas</strong>: Español e inglés.<strong>Education</strong>: Universidad de Los Andes School of Law (Bachelor of Laws, 2009). Diploma in Corporations and Financing, Universidad de Los Andes (2012). Master of Laws (LLM), Queen Mary University of London (2015).\r\n\r\n<strong>Admitted to Practice:</strong> 2011.\r\n\r\n<strong>Prior Work Experience:</strong> Fontaine y Cía. (2011-2014).\r\n\r\n<strong>Languages</strong>: Spanish and English.[:fr]<strong>Études</strong>: : Faculté de Droit, Universidad de Los Andes (Licencié en Droit, 2009). Diplômée en Société et Financement, Universidad de Los Andes (2012). Master en Droit (LLM), Queen Mary University of London (2015).\r\n\r\n<strong>Admis au barreau:</strong> 2011.\r\n\r\n<strong>Expériences professionnelles précedents:</strong> Fontaine y Cía. (2011-2014).\r\n\r\n<strong>Langues</strong>: Espagnol &amp; Anglais.",
-  "postId": "742",
-  "postName": "eduardo-silva-d",
-  "nicename": "eduardo-silva-d"
-};

@@ -1,7 +1,0 @@
-export const Joo_Castillo_LProfile = {
-  "name": "João Castillo L.",
-  "info": "Formación Académica:\r\n• Enseñanza Universitaria: 2016 – 2021: Licenciatura Ciencias Jurídicas y Sociales.\r\nFacultad de Derecho de la Universidad de Chile. Egresado.\r\nExperiencia Laboral:• Diciembre 2018 a agosto 2020: Procurador Corporativo en Villaroel, Lecaros &amp; Aste.\r\n• Octubre 2022- a la fecha: Asociado en Villarroel, Lecaros &amp; Aste.\r\n• Admitido a Práctica profesional: Enero 2023.\r\nExperiencia Académica:\r\n• Marzo 2021 a la fecha: Ayudante de Clínica de Asesoría Jurídica a la Gestión de\r\nEmpresas. Facultad de Derecho de la Universidad de Chile.\r\nIdiomas:\r\n• Inglés nivel intermedio.\r\n• First Certificate in English: Council of Europe Level B2.\r\n• Portugués nativo.<p style=\"font-weight: 400;\">Education: Law School, Universidad de Chile (Law Degree, 2021).</p>\r\n<p style=\"font-weight: 400;\">Admitted to internship: 2023</p>\r\n<p style=\"font-weight: 400;\">Professional Activity: Junior at Villarroel, Lecaros y Aste. December 2018- August 2020.</p>\r\n<p style=\"font-weight: 400;\">Academic Activity: Assistant of the Legal Advice Clinic for Business Management. School of Law, University of Chile. March 2021 to date</p>\r\n<p style=\"font-weight: 400;\">Languages: Spanish, English and Portuguese.</p>",
-  "postId": "1108",
-  "postName": "joao-antonio-castillo-l",
-  "nicename": "joao-antonio-castillo-l"
-};

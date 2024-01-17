@@ -5,50 +5,28 @@ import { paths } from 'src/routes/paths';
 export const pageLinks = [
   {
     order: '1',
-    subheader: 'Marketing',
-    cover: '/assets/images/menu/menu_marketing.jpg',
+    subheader: 'Villarroel, Lecaros y Aste',
+    cover: '/assets/images/menu/vla_white.png',
     items: [
-      { title: 'Landing', path: paths.marketing.root },
-
+      { title: 'Landing', path: paths.vla.root },
+      { title: 'Landing Travel', path: paths.travel.root },
+      { title: 'Abogados Landing', path: paths.abogados.root },
+      { title: 'Landing Career', path: paths.career.root },
+      { title: 'About VLA', path: paths.vla.about },
+      { title: 'About eLearn', path: paths.eLearning.about },
+      { title: 'About Abogados', path: paths.abogados.about },
+      { title: 'Equipo Abogados', path: paths.abogados.equipo },
+      { title: 'About Travel', path: paths.travel.about },
+      { title: 'Equipo', path: paths.vla.equipo },
+      { title: 'Contact', path: paths.travel.contact },
     ],
   },
-  {
-    order: '6',
-    subheader: 'Travel',
-    cover: '/assets/images/menu/menu_travel.jpg',
-    items: [
-      { title: 'Landing', path: paths.travel.root },
 
-    ],
-  },
-  {
-    order: '2',
-    subheader: 'Career',
-    cover: '/assets/images/menu/menu_career.jpg',
-    items: [
-      { title: 'Landing', path: paths.career.root },
 
-    ],
-  },
-  {
-    order: '5',
-    subheader: 'E-learning',
-    cover: '/assets/images/menu/menu_elearning.jpg',
-    items: [
-      { title: 'Landing', path: paths.eLearning.root },
 
-    ],
-  },
-  {
-    isNew: true,
-    order: '3',
-    subheader: 'E-commerce',
-    cover: '/assets/images/menu/menu_ecommerce.jpg',
-    items: [
-      { title: 'Landing', path: paths.eCommerce.root },
 
-    ],
-  },
+
+
   {
     order: '4',
     subheader: 'Common',
@@ -75,11 +53,11 @@ export const pageLinks = [
 
 export const navConfig = [
   { title: 'INICIO', path: '/' },
-  { title: 'ÁREAS', path: paths.components.root },
+  { title: 'ÁREAS', path: paths.vla.about },
   {
     title: 'FIRMA',
     path: paths.pages,
-    children: [pageLinks[0], pageLinks[1], pageLinks[2], pageLinks[3], pageLinks[4], pageLinks[5]],
+    children: [pageLinks[0], pageLinks[1]],
   },
   { title: 'EQUIPO', path: paths.travel.about },
 ];

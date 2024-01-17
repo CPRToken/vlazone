@@ -28,8 +28,9 @@ export const StyledLabel = styled(Box)(({
       // FILLED
       ...(filledVariant && {
         color: lightMode ? theme.palette.common.white : theme.palette.grey[800],
-        backgroundColor: theme.palette.text.primary,
+        backgroundColor: theme.palette.grey[300], // Changed to light grey
       }),
+
       // OUTLINED
       ...(outlinedVariant && {
         backgroundColor: 'transparent',

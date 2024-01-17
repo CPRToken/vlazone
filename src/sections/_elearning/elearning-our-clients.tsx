@@ -6,15 +6,15 @@ import Typography from '@mui/material/Typography';
 import SvgColor from 'src/components/svg-color';
 import Carousel, { useCarousel } from 'src/components/carousel';
 
-import { IBrandProps } from 'src/types/brand';
-
+import { ITeamMemberProps } from 'src/types/team';
+import ElearningTeamItem from './team/elearning-team-item';
 // ----------------------------------------------------------------------
 
 type Props = {
-  brands: IBrandProps[];
+  teamMembers: ITeamMemberProps[];
 };
 
-export default function ElearningOurClients({ brands }: Props) {
+export default function ElearningOurClients({ teamMembers = [] }: Props) {
   const theme = useTheme();
 
   const carousel = useCarousel({
@@ -27,11 +27,11 @@ export default function ElearningOurClients({ brands }: Props) {
     responsive: [
       {
         breakpoint: theme.breakpoints.values.md,
-        settings: { slidesToShow: 4 },
+        settings: { slidesToShow: 5 },
       },
       {
         breakpoint: theme.breakpoints.values.sm,
-        settings: { slidesToShow: 2 },
+        settings: { slidesToShow: 4 },
       },
     ],
   });
@@ -40,7 +40,7 @@ export default function ElearningOurClients({ brands }: Props) {
     <Container
       sx={{
         pt: 10,
-        pb: { xs: 5, md: 10 },
+        pb: { xs: 5, md: 18, lg: 27 },
       }}
     >
       <Stack
@@ -50,16 +50,16 @@ export default function ElearningOurClients({ brands }: Props) {
           mb: { xs: 8, md: 10 },
         }}
       >
-        <Typography variant="h2">We Work With</Typography>
+        <Typography variant="h2">Nuestro Equipo</Typography>
 
-        <Typography sx={{ color: 'text.secondary' }}>
-          Quisque aliquet, libero consequat elementum convallis.
-        </Typography>
+
       </Stack>
 
       <Carousel {...carousel.carouselSettings}>
-        {brands.map((brand) => (
-          <SvgColor key={brand.id} src={brand.image} sx={{ width: 106, height: 32 }} />
+        {teamMembers.map((member) => (
+          <div style={{ margin: '0 30px' }}>
+          <ElearningTeamItem key={member.id} member={member} />
+          </div>
         ))}
       </Carousel>
     </Container>

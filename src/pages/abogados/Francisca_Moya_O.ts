@@ -1,0 +1,7 @@
+export const Francisca_Moya_OProfile = {
+  "name": "Francisca Moya O.",
+  "info": "<strong>Educación</strong>: Facultad de Derecho, Universidad Diego Portales (Licenciada en Derecho, 2014). Magíster en Derecho Penal y Procesal Penal, Universidad Diego Portales (2014).\r\n\r\n<strong>Admitida a práctica:</strong> 2015.\r\n\r\n<strong>Actividad Académica:</strong> Profesora-Ayudante de Derecho Penal, Universidad Diego Portales (2015-).\r\n\r\n<strong>Idiomas</strong>: Español e inglés.<strong>Education</strong>: Universidad Diego Portales School of Law (Bachelor of Laws, 2014). Master of Criminal Law and Criminal Procedure Law, Universidad Diego Portales (2014).\r\n\r\n<strong>Admitted to Practice</strong>: 2015.\r\n\r\n<strong>Academic Activity:</strong> Assistant Professor- of Criminal Law, Universidad Diego Portales (2015-).\r\n\r\n<strong>Languages:</strong> Spanish and English.[:fr]<strong>Études</strong> : Faculté de Droit, Universidad Diego Portales (Licenciée en Droit, 2014). Master en Droit pénal et en Procédures pénales, Universidad Diego Portales (2014).\r\n\r\n<strong>Admise au barreau :</strong> 2015.\r\n\r\n<strong>Activité Académique :</strong> Assistante de Droit pénal, Universidad Diego Portales (depuis 2015).\r\n\r\n<strong>Langues</strong> : Espagnol &amp; Anglais.",
+  "postId": "314",
+  "postName": "francisca-moya-o",
+  "nicename": "francisca-moya-o"
+};

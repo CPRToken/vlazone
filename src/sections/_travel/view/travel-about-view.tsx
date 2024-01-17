@@ -19,13 +19,13 @@ export default function TravelAboutView() {
 
       <TravelTeam members={_members} />
 
-      <TravelTestimonial testimonials={_testimonials} />
 
-      <TravelOurClients brands={_brands} />
 
-      <TravelLatestPosts posts={_travelPosts.slice(0, 4)} />
 
-      <TravelNewsletter />
+
+
+
+
     </>
   );
 }

@@ -107,7 +107,7 @@ export default function NavList({ data }: NavListProps) {
 
                 {commonList && (
                   <Grid xs={3}>
-                    <Box sx={{ bgcolor: 'background.default', p: 5 }}>
+                    <Box sx={{ bgcolor: 'background.default', p: 4 }}>
                       <NavSubList subheader={commonList.subheader} items={commonList.items} />
                     </Box>
                   </Grid>

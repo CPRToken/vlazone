@@ -22,7 +22,7 @@ export default function ElearningTeamAbout({ members }: Props) {
           mb: { xs: 8, md: 10 },
         }}
       >
-        Our Teachers
+        NUESTRO EQUIPIO (E)
       </Typography>
 
       <Box

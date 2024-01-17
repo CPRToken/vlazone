@@ -14,8 +14,8 @@ function Logo({ single = false, sx }: LogoProps) {
   const isDarkMode = theme.palette.mode === 'dark';
 
   // Specify paths for dark and light mode logos
-  const darkModeLogoPath = '/assets/logo/VLA.svg';
-  const lightModeLogoPath = '/assets/logo/VLA-DARK.svg';
+  const darkModeLogoPath = '/assets/logo/VLALOGO7.svg';
+  const lightModeLogoPath = '/assets/logo/VLALOGO8.svg';
 
   return (
     <Link
@@ -39,9 +39,12 @@ function Logo({ single = false, sx }: LogoProps) {
           src={isDarkMode ? darkModeLogoPath : lightModeLogoPath}
           alt="VLA Logo"
           style={{
-            width: single ? '140px' : '120px',
+            width: single ? '680px' : '660px',
             height: 'auto',
             maxWidth: 'none',
+            paddingTop: '30px',
+            paddingLeft: '0px',
+            paddingRight: '100px',
           }}
         />
       </Box>

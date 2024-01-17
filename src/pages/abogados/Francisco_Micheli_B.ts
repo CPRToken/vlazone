@@ -1,0 +1,7 @@
+export const Francisco_Micheli_BProfile = {
+  "name": "Francisco Micheli B.",
+  "info": "<strong>Educación</strong>: Facultad de Derecho, Pontificia Universidad Católica de Chile (Licenciado en Derecho con Distinción Máxima, 2014).\r\n\r\n<strong>Admitido a práctica:</strong> 2015.\r\n\r\n<strong>Actividad Académica:</strong> Profesor-Ayudante de Derecho Civil, Pontificia Universidad Católica de Chile (2012-).\r\n\r\n<strong>Idiomas</strong>: Español e inglés.<strong>Education</strong>: Pontificia Universidad Católica de Chile School of Law (Bachelor of Laws with the Highest Distinction, 2014).\r\n\r\n<strong>Admitted to Practice:</strong> 2015.\r\n\r\n<strong>Academic Activity</strong>: Assistant Professor- of Civil Law, Pontificia Universidad Católica de Chile (2012-).\r\n\r\n<strong>Languages:</strong> Spanish and English.[:fr]<h1>Francisco Micheli</h1>\r\n<strong>Études</strong> : Faculté de Droit, Pontificia Universidad Católica de Chile (Licencié en Droit avec la Plus Haute Distinction, 2014).\r\n\r\n<strong>Admis au barreau :</strong> 2015.\r\n\r\n<strong>Activité Académique :</strong> Assistant de Droit civil, Pontificia Universidad Católica de Chile (depuis 2012).\r\n\r\n<strong>Langues :</strong> Espagnol &amp; Anglais.",
+  "postId": "312",
+  "postName": "francisco-micheli-b",
+  "nicename": "francisco-micheli-b"
+};

@@ -10,23 +10,43 @@ import Iconify from 'src/components/iconify';
 
 const CORE_VALUES = [
   {
-    title: 'Customer Satisfaction',
-    description: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    title: 'Corporativo',
+
     icon: 'carbon:3d-curve-auto-colon',
   },
   {
-    title: 'Transparency',
-    description: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    title: 'Fusiones y Adquisiciones',
+
     icon: 'carbon:chat-bot',
   },
   {
-    title: 'Reputation',
-    description: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    title: 'Tributaria',
+
     icon: 'carbon:airport-location',
   },
   {
-    title: 'Cooperation',
-    description: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    title: 'Laboral',
+
+    icon: 'carbon:event',
+  },
+  {
+    title: 'Contratación Nacional e Internacional',
+
+    icon: 'carbon:event',
+  },
+  {
+    title: 'Inmobiliaria, Ingeniería y Construcción',
+
+    icon: 'carbon:event',
+  },
+  {
+    title: 'Financiamiento de Proyectos',
+
+    icon: 'carbon:event',
+  },
+  {
+    title: 'Mercados Regulados',
+
     icon: 'carbon:event',
   },
 ];
@@ -42,7 +62,7 @@ export default function ElearningAboutCoreValues() {
         py: { xs: 8, md: 15 },
       }}
     >
-      <Container>
+      <Container sx={{ py: { xs: 8, md: 15 }, maxWidth: '1800px' }}>
         <Stack
           spacing={3}
           direction={{ xs: 'column', md: 'row' }}
@@ -51,18 +71,19 @@ export default function ElearningAboutCoreValues() {
             mb: { xs: 8, md: 15 },
             textAlign: { xs: 'center', md: 'left' },
           }}
-        >
-          <Typography variant="h2">Core Values</Typography>
 
-          <Typography sx={{ color: 'text.secondary', maxWidth: { md: 540 } }}>
-            Etiam ultricies nisi vel augue. Suspendisse potenti. Sed mollis, eros et ultrices
-            tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Phasellus viverra
-            nulla ut metus varius laoreet.
-          </Typography>
+
+        >
+
+          <Typography variant="h2">Áreas de Práctica</Typography>
+
         </Stack>
 
         <Grid container spacing={8}>
+
           {CORE_VALUES.map((value) => (
+
+
             <Grid
               key={value.title}
               xs={12}
@@ -78,7 +99,6 @@ export default function ElearningAboutCoreValues() {
                 {value.title}
               </Typography>
 
-              <Typography sx={{ color: 'text.secondary' }}> {value.description} </Typography>
             </Grid>
           ))}
         </Grid>

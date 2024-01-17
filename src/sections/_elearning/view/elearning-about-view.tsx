@@ -16,17 +16,19 @@ import ElearningLatestPosts from '../../blog/elearning/elearning-latest-posts';
 export default function ElearningAboutView() {
   return (
     <>
-      <ElearningAboutHero />
+
 
       <ElearningAbout />
 
       <ElearningAboutCoreValues />
 
-      <TeamElearningAbout members={_members} />
 
-      <ElearningOurClients brands={_brandsColor} />
 
-      <ElearningTestimonial testimonials={_testimonials} />
+
+
+      <ElearningOurClients teamMembers={_members}  />
+
+
 
       <ElearningLatestPosts posts={_coursePosts.slice(0, 4)} />
 

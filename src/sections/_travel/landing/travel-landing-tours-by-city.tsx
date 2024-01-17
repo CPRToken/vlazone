@@ -54,11 +54,9 @@ export default function TravelLandingToursByCity({ tours }: Props) {
         }}
       >
         <Stack spacing={3}>
-          <Typography variant="h2">Tours By City</Typography>
+          <Typography variant="h2">Our Team</Typography>
 
-          <Typography sx={{ color: 'text.secondary' }}>
-            {`Our Featured Tours can help you find the trip that's perfect for you!`}
-          </Typography>
+
         </Stack>
 
         {mdUp && viewAllBtn}

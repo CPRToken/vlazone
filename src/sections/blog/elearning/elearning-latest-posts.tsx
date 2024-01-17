@@ -50,7 +50,7 @@ export default function ElearningLatestPosts({ posts }: Props) {
           mb: { xs: 8, md: 10 },
         }}
       >
-        <Typography variant="h3">Latest Posts</Typography>
+        <Typography variant="h3">Noticias</Typography>
 
         {mdUp && viewAllBtn}
       </Stack>

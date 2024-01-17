@@ -13,13 +13,13 @@ import CountUp from 'src/components/count-up';
 
 const SUMMARY = [
   {
-    name: 'Learners',
-    number: 14000,
+    name: 'Educación:',
+    number: 15,
     description:
       'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
   },
   {
-    name: 'Courses',
+    name: 'Casos ganados',
     number: 1050,
     description:
       'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
@@ -44,27 +44,21 @@ export default function ElearningAbout() {
     >
       <Grid
         container
-        spacing={{ xs: 2, md: 8 }}
+        spacing={{ xs: 2, md: 8, lg: 9 }}
         sx={{
           textAlign: { xs: 'center', md: 'left' },
         }}
       >
         <Grid xs={12} md={6}>
-          <Typography variant="overline" sx={{ color: 'primary.main' }}>
-            Nullam accumsan lorem in dui.
-          </Typography>
+
         </Grid>
 
         <Grid xs={12} md={6}>
-          <Typography variant="h3" sx={{ mb: 3 }}>
-            Effective Forms Advertising Internet Web Site
+          <Typography variant="h3" sx={{ mb: 1 }}>
+          Christian Aste M.
           </Typography>
 
-          <Typography sx={{ color: 'text.secondary' }}>
-            Over 92% of computers are infected with Adware and spyware. Such software is rarely
-            accompanied by uninstall utility and even when it is it almost always leaves broken
-            Windows
-          </Typography>
+
         </Grid>
       </Grid>
 
@@ -80,7 +74,7 @@ export default function ElearningAbout() {
         <Grid xs={12} md={6} lg={6}>
           <Image
             alt="about"
-            src="/assets/images/course/course_about.jpg"
+            src="/assets/team/aste.jpg"
             ratio="3/4"
             sx={{ borderRadius: 2 }}
           />

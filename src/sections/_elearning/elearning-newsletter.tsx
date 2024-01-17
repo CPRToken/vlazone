@@ -16,7 +16,7 @@ export default function ElearningNewsletter() {
       sx={{
         py: { xs: 10, md: 15 },
         overflow: 'hidden',
-        bgcolor: 'primary.lighter',
+
       }}
     >
       <Container>
@@ -27,12 +27,11 @@ export default function ElearningNewsletter() {
           justifyContent={{ md: 'space-between' }}
           direction={{ xs: 'column-reverse', md: 'row' }}
         >
-          <Grid xs={12} md={5} sx={{ textAlign: 'center', color: 'grey.800' }}>
-            <Typography variant="h3">Register Now Forget 20% Discount Every Courses</Typography>
+          <Grid xs={12} md={5} sx={{ textAlign: 'center', color: 'white.800' }}>
+            <Typography variant="h3">Para suscribirse a nuestro boletín</Typography>
 
             <Typography sx={{ mt: 2.5, mb: 5 }}>
-              Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed magna purus,
-              fermentum eu
+              Actualizaciones de noticias una vez a la semana
             </Typography>
 
             <InputBase

@@ -14,7 +14,7 @@ export default function ElearningAboutHero() {
       sx={{
         py: { xs: 10, md: 20 },
         overflow: 'hidden',
-        bgcolor: 'primary.lighter',
+        bgcolor: '#3d3d3d',
       }}
     >
       <Container>
@@ -28,11 +28,12 @@ export default function ElearningAboutHero() {
               textAlign: { xs: 'center', md: 'left' },
             }}
           >
-            <Typography variant="h1">Online Courses</Typography>
+            <Typography variant="h1">Firma</Typography>
 
             <Typography sx={{ mt: 3, mb: 6 }}>
-              Nunc nulla. Ut leo. Pellentesque commodo eros a enim. Nunc egestas, augue at
-              pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede.
+              Villarroel, Lecaros y Aste es una firma de gran trayectoria. Fue fundada en 1968 y desde entonces se ha caracterizado por construir relaciones de confianza y de larga data con sus clientes, basada en la excelencia y gran experiencia de sus profesionales, proporcionando una atención personalizada y un apoyo legal ágil y oportuno.
+
+
             </Typography>
 
             <Button variant="contained" size="large" color="primary">
@@ -41,7 +42,7 @@ export default function ElearningAboutHero() {
           </Grid>
 
           <Grid xs={12} md={6} lg={6}>
-            <Image alt="courses-online" src="/assets/illustrations/illustration_courses_hero.svg" />
+
           </Grid>
         </Grid>
       </Container>

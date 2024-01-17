@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import   { useState, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
@@ -222,22 +222,19 @@ export default function CareerLandingHero() {
     >
       <Container sx={{ position: 'relative', zIndex: 2 }}>
         <Grid container spacing={3} justifyContent="space-between">
-          <Grid xs={12} md={6} lg={8}>
+          <Grid xs={12} md={6} lg={8.3}>
             <Stack
               spacing={5}
               sx={{
                 textAlign: { xs: 'center', md: 'unset' },
               }}
             >
+
+
+
               <Typography
-                variant="h2"
-                sx={{ color: 'common.white' }}>
-                VILLARROEL, LECAROS Y ASTE
-              </Typography>
-
-
-
-              <Typography sx={{ color: 'white.500' }}>
+                variant="h6"
+                sx={{ color: '#EFEFEF' }}>
                 Villarroel, Lecaros y Aste es una firma de gran trayectoria. Fue fundada en 1968 y desde entonces se ha caracterizado por construir relaciones de confianza y de larga data con sus clientes, basada en la excelencia y gran experiencia de sus profesionales, proporcionando una atención personalizada y un apoyo legal ágil y oportuno.
                 <br /><br />
                 Nuestro estudio cuenta con doctores en derecho, profesores universitarios, ex abogados integrantes de la Corte Suprema y, en general, profesionales de gran prestigio. Nuestra firma promueve y fomenta la participación en el mundo académico y la capacitación permanente de sus abogados, con el fin de mantener un alto estándar de calidad profesional.

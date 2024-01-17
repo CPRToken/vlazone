@@ -25,9 +25,9 @@ import ElearningLandingFeaturedCourses from '../landing/elearning-landing-featur
 export default function ElearningLandingView() {
   return (
     <>
-      <ElearningLandingHero />
 
-      <ElearningOurClients brands={_brandsColor} />
+
+
 
       <ElearningLandingIntroduce />
 

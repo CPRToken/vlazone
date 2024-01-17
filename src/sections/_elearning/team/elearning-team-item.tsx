@@ -17,13 +17,13 @@ import { ITeamMemberProps } from 'src/types/team';
 
 const StyledOverlay = styled('div')(({ theme }) => ({
   ...bgGradient({
-    startColor: `${alpha(theme.palette.common.black, 0)} 0%`,
-    endColor: `${theme.palette.common.black} 75%`,
+    startColor: `${alpha(theme.palette.common.black, 0)} 20%`,
+    endColor: `${theme.palette.common.black} 99%`,
   }),
   top: 0,
   left: 0,
   zIndex: 8,
-  opacity: 0,
+  opacity: 1,
   width: '100%',
   height: '100%',
   position: 'absolute',
@@ -44,16 +44,15 @@ export default function ElearningTeamItem({ member }: Props) {
   const { name, role, photo } = member;
 
   return (
-    <Card>
-      <Stack spacing={0.5} sx={{ textAlign: 'center', pt: 3, pb: 1.5 }}>
+    <Card sx={{ width: '180px', margin: 'auto' }}> {/* Adjust the size of the card here */}
+      <Stack spacing={0.5} sx={{ textAlign: 'center', pt: 1, pb: 1 }}>
         <Typography variant="h6">{name}</Typography>
-
-        <Typography variant="body2" sx={{ color: 'text.disabled' }}>
+        <Typography variant="body1" sx={{ color: 'text.secondary' }}>
           {role}
         </Typography>
       </Stack>
 
-      <Box sx={{ position: 'relative' }}>
+      <Box sx={{ position: 'relative', width: '100%', height: '150px', margin: 'auto' }}> {/* Adjust size here */}
         <Shape />
 
         <StyledOverlay>

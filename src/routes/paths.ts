@@ -7,10 +7,32 @@ export const paths = {
     services: '/marketing/services',
     caseStudies: '/marketing/case-studies',
     caseStudy: `/marketing/case-study`,
-    posts: '/marketing/posts',
+    posts: '/marketing/abogados',
     post: `/marketing/post`,
     about: '/marketing/about',
     contact: '/marketing/contact',
+  },
+
+  abogados: {
+    root: '/abogados',
+    team: '/team',
+    equipo: '/equipo',
+    about: '/about',
+    posts: '/travel/abogados',
+
+    contact: '/contact',
+  },
+
+  vla: {
+    root: '/vla',
+    services: '/vla/services',
+    caseStudies: '/vla/case-studies',
+    caseStudy: `/vla/case-study`,
+    posts: '/vla/abogados',
+    post: `/vla/abogado`,
+    about: '/vla/about',
+    contact: '/vla/contact',
+    equipo: '/vla/equipo',
   },
   // Travel
   travel: {
@@ -19,17 +41,27 @@ export const paths = {
     tour: `/travel/tour`,
     checkout: '/travel/checkout',
     orderCompleted: '/travel/order-completed',
-    posts: '/travel/posts',
+    posts: '/travel/abogados',
     post: `/travel/post`,
     about: '/travel/about',
     contact: '/travel/contact',
   },
+
+  equipo: {
+    root: '/equipo',
+    team: '/travel/team',
+    posts: '/travel/abogados',
+    post: `/travel/post`,
+    about: '/travel/about',
+    contact: '/travel/contact',
+  },
+
   // Career
   career: {
     root: '/career',
     jobs: '/career/jobs',
     job: `/career/job`,
-    posts: '/career/posts',
+    posts: '/career/abogados',
     post: `/career/post`,
     about: '/career/about',
     contact: '/career/contact',
@@ -39,7 +71,7 @@ export const paths = {
     root: '/e-learning',
     courses: '/e-learning/courses',
     course: `/e-learning/course`,
-    posts: '/e-learning/posts',
+    posts: '/e-learning/abogados',
     post: `/e-learning/post`,
     about: '/e-learning/about',
     contact: '/e-learning/contact',

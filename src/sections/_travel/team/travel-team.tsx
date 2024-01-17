@@ -31,7 +31,7 @@ export default function TravelTeam({ members }: Props) {
       >
         <Typography variant="h2">NUESTRO EQUIPO</Typography>
 
-        <Typography sx={{ color: 'text.secondary' }}>
+        <Typography sx={{ color: 'text.primary' }}>
           Reconocidos por nuestra amplia trayectoria y habilidades, nos enfocamos en el servicio al cliente, sustentados en una cultura de colaboración y compromiso genuino.
         </Typography>
       </Stack>

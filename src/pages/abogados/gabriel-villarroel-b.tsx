@@ -40,7 +40,7 @@ export default function GabrielVillarroel() {
   )}
   <Grid xs={12} md={6} lg={8} sx={{ pl: { lg: 11 } }}>
   <Typography variant="h3" sx={{ mb: 3 }}>
-  Carlos Villarroel B.</Typography>
+  Gabriel Villarroel B.</Typography>
   <Tabs
   indicatorColor="primary"
   onChange={handleTabChange}
